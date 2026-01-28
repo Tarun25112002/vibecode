@@ -1,9 +1,14 @@
+import { Button } from '@/components/ui/button'
+import { Skeleton } from '@/components/ui/skeleton';
 import React from 'react'
 
 function page() {
   return (
-    <div className='text-9xl'>Hii, This is main page.</div>
-  )
+    <>
+      <Button> Hii</Button>
+      <Skeleton>Hiiii</Skeleton>
+    </>
+  );
 }
 
 export default page
